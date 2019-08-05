@@ -1,0 +1,27 @@
+#server port configuration 
+server:
+  port: 9092
+#view resolver class configuration
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+#datasource configuration   
+  datasource: 
+    type: org.apache.tomcat.dbcp.dbcp2.BasicDataSource
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: manager
+#hibernate properties configuration
+  jpa:
+    show-sql: true
+    properties: 
+       format-sql: true
+       show-sql: true
+#Application message configuration
+apps: 
+   properties: 
+     succMsg: SSN Enrollment Completed Succesfully with 
+     failMsg: Failed to complete Enrollment

@@ -1,0 +1,20 @@
+USA_STATE_MASTER TABLE
+----------------------
+Name       Null?    Type         
+---------- -------- ------------ 
+STATE_ID   NOT NULL NUMBER(3)    
+STATE_NAME NOT NULL VARCHAR2(20) 
+STATE_CD   NOT NULL VARCHAR2(20) 
+
+SSN_MASTER TABLE
+-----------------
+Name       Null?    Type         
+---------- -------- ------------ 
+SSN_NO     NOT NULL NUMBER(10)   
+FIRST_NAME NOT NULL VARCHAR2(20) 
+LAST_NAME           VARCHAR2(20) 
+DOB        NOT NULL DATE         
+GENDER     NOT NULL VARCHAR2(10) 
+PHONE_NO            NUMBER(10)   
+STATE_NAME NOT NULL VARCHAR2(20) 
+PHOTO      NOT NULL BLOB         

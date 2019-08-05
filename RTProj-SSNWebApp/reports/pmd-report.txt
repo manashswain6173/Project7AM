@@ -1,0 +1,326 @@
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:7:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:7:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:9:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplication.java:9:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/ServletInitializer.java:6:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/ServletInitializer.java:6:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/ServletInitializer.java:6:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/ServletInitializer.java:6:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/ServletInitializer.java:9:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/ServletInitializer.java:9:	Parameter 'application' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:14:	Avoid the use of value in annotations when its the only element
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:14:	Avoid the use of value in annotations when its the only element
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:16:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:16:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:18:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:18:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:18:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:18:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:18:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/usa/federal/gov/ssa/config/AppsMessage.java:18:	If you run in Java5 or newer and have concurrent access, you should use the ConcurrentHashMap implementation
+src/main/java/com/usa/federal/gov/ssa/config/SwaggerConfig.java:16:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/config/SwaggerConfig.java:16:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/config/SwaggerConfig.java:16:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/config/SwaggerConfig.java:16:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/config/SwaggerConfig.java:19:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/config/SwaggerConfig.java:19:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/constants/AppsConstantHelper.java:16:	Avoid excessively long variable names like NEW_SSN_ENROLL_PAGE
+src/main/java/com/usa/federal/gov/ssa/constants/AppsConstantHelper.java:16:	Avoid excessively long variable names like NEW_SSN_ENROLL_PAGE
+src/main/java/com/usa/federal/gov/ssa/constants/AppsConstantHelper.java:20:	Avoid excessively long variable names like ALL_SSN_ENROLL_PAGE
+src/main/java/com/usa/federal/gov/ssa/constants/AppsConstantHelper.java:20:	Avoid excessively long variable names like ALL_SSN_ENROLL_PAGE
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:35:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:35:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:45:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:65:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:65:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:67:	Local variable 'ssnMdl' could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:67:	Local variable 'ssnMdl' could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:82:	Parameter 'model1' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:82:	Parameter 'model1' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:82:	Parameter 'ssnModel' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:82:	Parameter 'ssnModel' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:83:	Parameter 'errors' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:83:	Parameter 'errors' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:83:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:83:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:84:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:84:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:84:	Found 'DD'-anomaly for variable 'msg' (lines '84'-'95').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:84:	Found 'DD'-anomaly for variable 'msg' (lines '84'-'95').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:84:	Found 'DU'-anomaly for variable 'msg' (lines '84'-'108').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:84:	Found 'DU'-anomaly for variable 'msg' (lines '84'-'108').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:85:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:85:	Avoid declaring a variable if it is unreferenced before a possible exit point.
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:85:	Found 'DD'-anomaly for variable 'dto' (lines '85'-'92').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:85:	Found 'DD'-anomaly for variable 'dto' (lines '85'-'92').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:85:	Found 'DU'-anomaly for variable 'dto' (lines '85'-'108').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:85:	Found 'DU'-anomaly for variable 'dto' (lines '85'-'108').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:90:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:90:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:101:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:101:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:103:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:103:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:117:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:117:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:118:	Found 'DD'-anomaly for variable 'listDTO' (lines '118'-'121').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:118:	Found 'DD'-anomaly for variable 'listDTO' (lines '118'-'121').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:121:	Found 'DU'-anomaly for variable 'listDTO' (lines '121'-'129').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:121:	Found 'DU'-anomaly for variable 'listDTO' (lines '121'-'129').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:122:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:122:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:124:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:124:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:136:	Found 'UR'-anomaly for variable 'st' (lines '136'-'146').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:136:	Found 'UR'-anomaly for variable 'st' (lines '136'-'146').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:136:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:136:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:137:	Found 'DD'-anomaly for variable 'dtoList' (lines '137'-'142').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:137:	Found 'DD'-anomaly for variable 'dtoList' (lines '137'-'142').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:138:	Found 'DD'-anomaly for variable 'gList' (lines '138'-'141').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:138:	Found 'DD'-anomaly for variable 'gList' (lines '138'-'141').
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:141:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:141:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:143:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:143:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:143:	Local variable 'states' could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:143:	Local variable 'states' could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:144:	Avoid if (x != y) ..; else ..;
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:144:	Avoid if (x != y) ..; else ..;
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:146:	Local variable 'str' could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:146:	Local variable 'str' could be declared final
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:150:	Avoid using if...else statements without curly braces
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:150:	Avoid using if...else statements without curly braces
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:150:	This statement should have braces
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:150:	This statement should have braces
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:157:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:157:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:159:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/controller/SSNWebController.java:159:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:10:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:10:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:12:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:12:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:13:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:13:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:14:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:14:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:15:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:15:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:16:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:16:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:17:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:17:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:18:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:18:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:19:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/dto/SsnDetailsDTO.java:19:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:38:	Number 887766554 should separate every third digit with an underscore
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:38:	Number 887766554 should separate every third digit with an underscore
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:40:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:40:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:42:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:42:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:44:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:44:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:46:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:46:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:48:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:48:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:50:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:50:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:52:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:52:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:56:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/SsnMasterEntity.java:56:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/StateMasterEntity.java:31:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/StateMasterEntity.java:31:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/StateMasterEntity.java:33:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/StateMasterEntity.java:33:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/StateMasterEntity.java:35:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/entity/StateMasterEntity.java:35:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/NoDataFoundException.java:3:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/NoDataFoundException.java:3:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/NoDataFoundException.java:10:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/NoDataFoundException.java:10:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/NoDataFoundException.java:10:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/NoDataFoundException.java:10:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:13:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:13:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:13:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:13:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:16:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:16:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:17:	Local variable 'error' could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/RestControllerException.java:17:	Local variable 'error' could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:8:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:8:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:10:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:10:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:11:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:11:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:12:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/RestErrorMsg.java:12:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:10:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:10:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:10:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:10:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:13:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:13:	Parameter 'model' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:13:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SSNWeAppExceptionHandler.java:13:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SsnWebAppException.java:3:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SsnWebAppException.java:3:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SsnWebAppException.java:10:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/SsnWebAppException.java:10:	Parameter 'msg' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/exception/SsnWebAppException.java:10:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/exception/SsnWebAppException.java:10:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:7:	Avoid unused imports such as 'javax.validation.constraints.Past'
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:7:	Avoid unused imports such as 'javax.validation.constraints.Past'
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:12:	Avoid unused imports such as 'org.springframework.format.annotation.DateTimeFormat'
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:12:	Avoid unused imports such as 'org.springframework.format.annotation.DateTimeFormat'
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:27:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:27:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:30:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:30:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:35:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:35:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:37:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:37:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:41:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:41:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:43:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:43:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:44:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/model/SsnModel.java:44:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/repositery/SsnRepository.java:9:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/repositery/SsnRepository.java:9:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/repositery/StateRepository.java:9:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/repositery/StateRepository.java:9:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:16:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:16:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:16:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:16:	Header comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:19:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:19:	Field comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:19:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:23:	Parameter 'ssn' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:23:	Parameter 'ssn' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:23:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:23:	Public method and constructor comments are required
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:24:	Found 'DD'-anomaly for variable 'ssnNo' (lines '24'-'27').
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:24:	Found 'DD'-anomaly for variable 'ssnNo' (lines '24'-'27').
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:25:	Found 'DD'-anomaly for variable 'stateName' (lines '25'-'29').
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:25:	Found 'DD'-anomaly for variable 'stateName' (lines '25'-'29').
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:29:	Found 'DU'-anomaly for variable 'stateName' (lines '29'-'34').
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:29:	Found 'DU'-anomaly for variable 'stateName' (lines '29'-'34').
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:30:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:30:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:31:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/resource/SsnRestController.java:31:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:11:	Comment is too large: Line too long
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:11:	Comment is too large: Line too long
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:20:	Unnecessary modifier 'public' on method 'getAllState': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:20:	Unnecessary modifier 'public' on method 'getAllState': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:26:	Unnecessary modifier 'public' on method 'enrollSSN': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:26:	Unnecessary modifier 'public' on method 'enrollSSN': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:32:	Unnecessary modifier 'public' on method 'getAllSSN': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:32:	Unnecessary modifier 'public' on method 'getAllSSN': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:40:	Unnecessary modifier 'public' on method 'getStateBySSN': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNService.java:40:	Unnecessary modifier 'public' on method 'getStateBySSN': the method is declared in an interface type
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:32:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:32:	Each class should declare at least one constructor
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:43:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:48:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:53:	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:56:	Parameter 'dto' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:56:	Parameter 'dto' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:57:	Found 'DD'-anomaly for variable 'entity' (lines '57'-'59').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:57:	Found 'DD'-anomaly for variable 'entity' (lines '57'-'59').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:62:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:64:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:64:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:66:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:66:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:69:	Avoid if (x != y) ..; else ..;
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:69:	Avoid if (x != y) ..; else ..;
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:69:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:69:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:70:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:71:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:71:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:75:	Found 'UR'-anomaly for variable 'entity' (lines '75'-'84').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:75:	Found 'UR'-anomaly for variable 'entity' (lines '75'-'84').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:76:	Found 'DD'-anomaly for variable 'listEntity' (lines '76'-'79').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:76:	Found 'DD'-anomaly for variable 'listEntity' (lines '76'-'79').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:80:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:80:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:80:	Local variable 'listDTO' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:80:	Local variable 'listDTO' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:83:	Local variable 'dto' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:83:	Local variable 'dto' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:89:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:89:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:91:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:91:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:96:	Found 'UR'-anomaly for variable 'entity' (lines '96'-'106').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:96:	Found 'UR'-anomaly for variable 'entity' (lines '96'-'106').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:97:	Found 'DD'-anomaly for variable 'stateList' (lines '97'-'100').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:97:	Found 'DD'-anomaly for variable 'stateList' (lines '97'-'100').
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:101:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:101:	Explicit type arguments can be replaced by Diamond Operator
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:101:	Local variable 'listDTO' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:101:	Local variable 'listDTO' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:102:	Avoid if (x != y) ..; else ..;
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:102:	Avoid if (x != y) ..; else ..;
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:105:	Local variable 'dto' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:105:	Local variable 'dto' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:110:	Avoid using if...else statements without curly braces
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:110:	Avoid using if...else statements without curly braces
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:110:	This statement should have braces
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:110:	This statement should have braces
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:115:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:115:	Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:117:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:117:	New exception is thrown in catch block, original stack trace may be lost
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:123:	Parameter 'ssnNo' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:123:	Parameter 'ssnNo' is not assigned and could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:125:	Local variable 'opt' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:125:	Local variable 'opt' could be declared final
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:126:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:131:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:131:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/service/SSNServiceImpl.java:131:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/usa/federal/gov/ssa/utility/SSNAppsUtil.java:16:	Found 'DD'-anomaly for variable 'str' (lines '16'-'18').
+src/main/java/com/usa/federal/gov/ssa/utility/SSNAppsUtil.java:16:	Found 'DD'-anomaly for variable 'str' (lines '16'-'18').
+src/main/java/com/usa/federal/gov/ssa/utility/SSNAppsUtil.java:17:	Found 'DD'-anomaly for variable 'strBuff' (lines '17'-'19').
+src/main/java/com/usa/federal/gov/ssa/utility/SSNAppsUtil.java:17:	Found 'DD'-anomaly for variable 'strBuff' (lines '17'-'19').
+src/main/java/com/usa/federal/gov/ssa/utility/SSNAppsUtil.java:22:	Avoid appending characters as strings in StringBuffer.append.
+src/main/java/com/usa/federal/gov/ssa/utility/SSNAppsUtil.java:22:	Avoid appending characters as strings in StringBuffer.append.
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:10:	Header comments are required
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:10:	Header comments are required
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:13:	Document empty method body
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:13:	Document empty method body
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:13:	JUnit tests should include assert() or fail()
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:13:	JUnit tests should include assert() or fail()
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:13:	Public method and constructor comments are required
+src/test/java/com/usa/federal/gov/ssa/RtProjSsnWebAppApplicationTests.java:13:	Public method and constructor comments are required
