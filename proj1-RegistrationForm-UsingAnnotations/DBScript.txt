@@ -1,0 +1,21 @@
+#Table details
+
+SQL> CREATE TABLE STUDENT_REG(REG_NO NUMBER(10),FIRST_NAME VARCHAR2(20) NOT NULL,LAST_NAME VARCHAR2(20),GENDER VARCHAR2(2),ADDRESS VARCHAR2(100) NOT NULL,EMAIL VARCHAR2(20),
+  2  MOBILE_NO NUMBER(10),COURSE VARCHAR2(10),PRIMARY KEY(REG_NO),UNIQUE(EMAIL));
+
+Table created.
+SQL> desc student_reg;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ REG_NO                                    NOT NULL NUMBER(10)
+ FIRST_NAME                                NOT NULL VARCHAR2(20)
+ LAST_NAME                                          VARCHAR2(20)
+ GENDER                                             VARCHAR2(2)
+ ADDRESS                                   NOT NULL VARCHAR2(100)
+ EMAIL                                              VARCHAR2(20)
+ MOBILE_NO                                          NUMBER(10)
+ COURSE                                             VARCHAR2(10)
+ #Table sequence
+ SQL> create sequence reg_no start with 100 increment by 1;
+
+Sequence created.

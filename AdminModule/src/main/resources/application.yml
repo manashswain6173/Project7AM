@@ -1,0 +1,31 @@
+#configuratio of server port number
+server:
+  port: 9094
+  
+#configuration of view Resolver 
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+      
+#configuration of datasource object
+
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: system
+    password: manager
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties: 
+        format-sql: true
+        
+#Application message configuration
+apps: 
+   properties: 
+     succMsg: Admin Account Registration sucessfully please your E-mail for UserName and password details.
+     failMsg: Failed to complete Admin Account Registration.
+        

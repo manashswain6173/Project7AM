@@ -1,0 +1,15 @@
+2019-06-13 20:14:42 DEBUG LoggerPropertyConfigurerTest:17 - This is the debug message
+2019-06-13 20:14:42 ERROR LoggerPropertyConfigurerTest:18 - This is the error message
+2019-06-13 20:14:42 WARN  LoggerPropertyConfigurerTest:19 - This is the warn message
+2019-06-13 20:14:42 FATAL LoggerPropertyConfigurerTest:20 - This is the fetal message
+2019-06-13 20:14:42 INFO  LoggerPropertyConfigurerTest:22 - This is the INFO message
+2019-06-13 20:14:53 DEBUG LoggerPropertyConfigurerTest:17 - This is the debug message
+2019-06-13 20:14:53 ERROR LoggerPropertyConfigurerTest:18 - This is the error message
+2019-06-13 20:14:53 WARN  LoggerPropertyConfigurerTest:19 - This is the warn message
+2019-06-13 20:14:53 FATAL LoggerPropertyConfigurerTest:20 - This is the fetal message
+2019-06-13 20:14:53 INFO  LoggerPropertyConfigurerTest:22 - This is the INFO message
+2019-06-13 20:15:03 DEBUG LoggerPropertyConfigurerTest:17 - This is the debug message
+2019-06-13 20:15:03 ERROR LoggerPropertyConfigurerTest:18 - This is the error message
+2019-06-13 20:15:03 WARN  LoggerPropertyConfigurerTest:19 - This is the warn message
+2019-06-13 20:15:03 FATAL LoggerPropertyConfigurerTest:20 - This is the fetal message
+2019-06-13 20:15:03 INFO  LoggerPropertyConfigurerTest:22 - This is the INFO message

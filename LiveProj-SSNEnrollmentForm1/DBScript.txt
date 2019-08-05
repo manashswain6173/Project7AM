@@ -1,0 +1,12 @@
+SQL>DESC SSN_PERSON;
+
+Name       Null?    Type         
+---------- -------- ------------ 
+SSN_NO     NOT NULL NUMBER(9)    
+FIRST_NAME NOT NULL VARCHAR2(20) 
+LAST_NAME           VARCHAR2(20) 
+DOB        NOT NULL DATE         
+GENDER     NOT NULL VARCHAR2(10) 
+PHONE_NO            NUMBER(10)   
+STATE      NOT NULL VARCHAR2(20) 
+PHOTO      NOT NULL BLOB         

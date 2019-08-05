@@ -1,0 +1,14 @@
+ROLE_MASTER TABLE 
+------------------
+SQL> DESC ROLE_MASTER;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+ SRLNO                                     NOT NULL NUMBER(2)
+ ROLE                                      NOT NULL VARCHAR2(15)
+ 
+SQL> SELECT * FROM ROLE_MASTER;
+
+     SRLNO ROLE
+---------- ---------------
+         1 ADMIN
+         2 CASE-WORKER

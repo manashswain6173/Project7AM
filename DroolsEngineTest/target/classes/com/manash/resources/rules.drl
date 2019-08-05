@@ -1,0 +1,24 @@
+package com.manash.resources
+
+import com.manash.model.Product
+
+rule "Discount for Diamond"
+  when 
+    product: Product(type=="diamond")
+  then 
+    product.setDiscount(15);
+  end
+  
+rule "Discount for Gold"
+   when 
+     product: Product(type=="gold")
+   then
+      product.setDiscount(10);
+   end
+   
+ rule "Discount for Silver"
+    when 
+      product: Product(type=="silver")
+    then 
+      product.setDiscount(5);
+    end

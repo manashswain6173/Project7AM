@@ -1,0 +1,8 @@
+#server port configuration
+server:
+  port: 9092
+#active profile 
+spring:
+  profiles:
+    active:
+    - dev

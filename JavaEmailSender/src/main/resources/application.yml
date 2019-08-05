@@ -1,0 +1,16 @@
+#server port configuration 
+server:
+  port: 9093
+#SMTP server configuration
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: manashswain6173@gmail.com
+    password: Manash@6173
+    properties: 
+       mail: 
+          smtp: 
+             starttls: 
+                enable: true

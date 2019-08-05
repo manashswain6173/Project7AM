@@ -1,0 +1,42 @@
+package com.rules
+
+import com.usa.his.ed.request.SnapPlanDataType
+import com.usa.his.ed.response.PlanInfoType
+import com.usa.his.ed.response.PlanApprovedType
+import com.usa.his.ed.response.PlanDeniedType
+
+rule "Snap Plan Approve Rules"
+
+   when 
+      snapPlanData: SnapPlanDataType(familyIncome<=3000 && isEmployed="N")
+   then
+      PlanInfoType infoType=new PlanInfoType();
+      
+      PlanApprovedType approved=new PlanApprovedType();
+      approved.setPlanStartDate("10/10/2015");
+      approved.setPlanEndDate("10/10/2020");
+      approved.setBenefitAmt(300);
+      
+      infoType.setPlanName("Snap");
+      infoType.setPlanStatus("Plan Approved");
+      infoType.setCaseNum(123456);
+      infoType.setPlanApproved(approved);
+      
+      snapPlanData.setPlanInfo(infoType);
+   end
+
+rule "Snap Plan Denied Rules"
+
+    when 
+      snapPlanData: SnapPlanDataType(familyIncome>=3000 && isEmployed="Y")
+   then
+      PlanInfoType infoType=new PlanInfoType();
+      
+      PlanDeniedType deniedType=new PlanDeniedType();
+      deniedType.setDenialReason("High Income and Salaried");
+      
+      infoType.setPlanName("Snap");
+      infoType.setPlanStatus("Plan Denied");
+      infoType.setCaseNum(123456);
+      infoType.setPlanDenied(deniedType);
+   end

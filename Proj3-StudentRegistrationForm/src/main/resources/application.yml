@@ -1,0 +1,23 @@
+#server port configuration
+server:
+  port: 9091
+
+#Hibernate properties configuration
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  
+#Datasource configuration
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: manager
+#view Resolver configuration
+  mvc:
+    view:
+      prefix: /view/
+      suffix: .jsp
+ 

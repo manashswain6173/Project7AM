@@ -1,0 +1,28 @@
+#server port configuration
+server:
+  port: 9092
+
+#Hibernate properties configuration
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    open-in-view: true
+  
+#Datasource configuration
+  datasource:
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: manager
+#view Resolver configuration
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+#application message configuration
+apps: 
+  msgs: 
+    succMsg: Student Registration Successfull
+    failMsg: Student Registration Failles

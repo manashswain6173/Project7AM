@@ -1,0 +1,24 @@
+#configuration of server poet number
+server:
+  port: 9093
+ 
+#configuration of view resolver class
+spring:
+  mvc:
+    view:
+      prefix: /WEB-INF/pages/
+      suffix: .jsp
+      
+#configuraion of data source connection
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    driver-class-name: oracle.jdbc.driver.OracleDriver
+    username: system
+    password: manager
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      format-sql: true
+      
